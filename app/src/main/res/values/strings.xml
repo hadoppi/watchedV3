@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">Watched</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+    <string-array name="shows_name">
+        <item>  24 </item>
+        <item> 9.1.1 </item>
+        <item> Altered Carbon </item>
+        <item> American Dad   </item>
+        <item> Black Lightning    </item>
+        <item> Bones  </item>
+        <item> Breaking Bad   </item>
+        <item> Californication    </item>
+        <item> Chilling Adventures of Sabrina </item>
+        <item> Chuck  </item>
+        <item> Community  </item>
+        <item> Criminal Minds </item>
+        <item> CSI    </item>
+        <item> CSI Miami  </item>
+        <item> Dancing With the Stars US  </item>
+        <item> Desperate Housewives   </item>
+        <item> Dexter </item>
+        <item> Dollhouse  </item>
+        <item> Dynasty 2017   </item>
+        <item> Elite  </item>
+        <item> Erkenci Kuş    </item>
+        <item> Family Guy </item>
+        <item> FBI    </item>
+        <item> Fringe </item>
+        <item> Greys Anatomy  </item>
+        <item> Heroes </item>
+        <item> House  </item>
+        <item> How I Met Your Mother  </item>
+        <item> Laws of love   </item>
+        <item> Legacies   </item>
+        <item> Legend of the Seeker   </item>
+        <item> Lost   </item>
+        <item> Manifest   </item>
+        <item> Marvels Inhumans   </item>
+        <item> MINDHUNTER </item>
+        <item> Modern Family  </item>
+        <item> My Brilliant Friend    </item>
+        <item> MythBusters    </item>
+        <item> Narcos: Mexico </item>
+        <item> NCIS   </item>
+        <item> Numb3rs    </item>
+        <item> Paradise PD    </item>
+        <item> Parks and Recreation   </item>
+        <item> Planet Earth II    </item>
+        <item> Prison Break   </item>
+        <item> Scrubs </item>
+        <item> Siren  </item>
+        <item> Smallville </item>
+        <item> Sons of Anarchy    </item>
+        <item> South Park </item>
+        <item> Stargate Atlantis  </item>
+        <item> Station 19 </item>
+        <item> Super Dragon Ball Heroes   </item>
+        <item> Supernatural   </item>
+        <item> Terminator The Sarah Connor Chronicles </item>
+        <item> The Big Bang Theory    </item>
+        <item> The Gifted </item>
+        <item> The Mentalist  </item>
+        <item> The Orville    </item>
+        <item> The Protector  </item>
+        <item> The Resident   </item>
+        <item> The Rookie </item>
+        <item> The Simpsons   </item>
+        <item> The Sinner </item>
+        <item> The Vampire Diaries    </item>
+        <item> Titans </item>
+        <item> True Blood </item>
+        <item> Two And A Half Men </item>
+        <item> Young Sheldon  </item>
+
+    </string-array>
+
+    <string-array name="friends">
+        <item> Lancelot </item>
+        <item> Arthur </item>
+        <item> Gauvain </item>
+        <item> Yvain </item>
+        <item> Galahad </item>
+    </string-array>
+
+</resources>
