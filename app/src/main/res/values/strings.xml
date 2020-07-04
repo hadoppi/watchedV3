@@ -9,6 +9,18 @@
     <string name="invalid_username">Not a valid username</string>
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">"Login failed"</string>
+    <string name="configuration">"Configuration"</string>
+    <string name="DisplayLogin">login</string>
+    <string name="Timer">Timer</string>
+    <string name="scoretimer">15648</string>
+    <string name="FavoriteShows">Séries favorites</string>
+    <string name="friends">Amis</string>
+    <string name="ButtonConfig">Configuration</string>
+    <string name="watchAlone">séries que je regarde seul</string>
+    <string name="myListTitle">Mes listes</string>
+    <string name="watchWife">séries que je regarde avec ma femme</string>
+    <string name="watchFamily">Séries que je ragrde en famille</string>
+    <string name="TvShows">Tv-Shows</string>
 
     <string-array name="shows_name">
         <item>  24 </item>

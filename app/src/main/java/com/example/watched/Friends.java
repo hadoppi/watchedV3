@@ -19,9 +19,9 @@ public class Friends extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_friends);
 
-        final String [] shows = getResources().getStringArray(R.array.friends);
+        final String [] friends = getResources().getStringArray(R.array.friends);
         ListView list;
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, R.layout.listview_layout, shows){
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, R.layout.listview_layout, friends){
             @Override
             public View getView(int position, View convertView, ViewGroup parent) {
                 View view;
@@ -34,7 +34,7 @@ public class Friends extends AppCompatActivity {
                     view = convertView;
                 }
                 TextView textView1 = (TextView) view.findViewById(R.id.listview_show);
-                textView1.setText(shows[position]);
+                textView1.setText(friends[position]);
 
                 return view;
             }
@@ -49,7 +49,7 @@ public class Friends extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent, View view,
                                     int position, long id) {
                 // TODO Auto-generated method stub
-                Toast.makeText(Friends.this, "You have selected: " + shows[position], Toast.LENGTH_LONG).show();
+                Toast.makeText(Friends.this, "You have selected: " + friends[position], Toast.LENGTH_LONG).show();
             }
         });
     }
