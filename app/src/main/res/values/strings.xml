@@ -24,6 +24,21 @@
     <string name="Episode">episode 2</string>
     <string name="Friends">Amis</string>
     <string name="links">liens de l\'épisode</string>
+    <string name="about">About Us</string>
+    <string name="description">Watched a été crée pour un projet à la HES</string>
+    <string name="show_about">about</string>
+    <string name="login">Login</string>
+    <string name="Cancel">Cancel</string>
+    <string name="oppi">getUsername</string>
+    <string name="Discover">Discvover</string>
+    <string name="Messages">Messages</string>
+    <string name="MyList">Mes listes</string>
+    <string name="Configuration">Configuration</string>
+    <string name="Send">Envoyer</string>
+    <string name="Seasons">Saisons</string>
+    <string name="Infos">Informations</string>
+    <string name="TvShow">TV-SHOWS</string>
+    <string name="Profil">Profil</string>
 
     <string-array name="shows_name">
         <item>  24 </item>

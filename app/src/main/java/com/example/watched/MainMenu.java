@@ -4,6 +4,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
@@ -87,5 +89,26 @@ public class MainMenu extends AppCompatActivity {
         Intent intent = new Intent(this, Configuration.class);
         startActivity(intent);
     }
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.main, menu);
+
+        return true;
+
+    }
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item){
+
+        switch(item.getItemId()){
+            case R.id.action_about:
+                Intent intent = new Intent(this, About.class);
+                MainMenu.this.startActivity(intent);
+                break;
+        }
+
+        return true;
+    }
+
 
 }

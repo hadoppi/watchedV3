@@ -9,19 +9,57 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Configuration"></activity>
+
+        <activity android:name=".Configuration"
+            android:label="@string/Configuration"
+            android:parentActivityName=".MainMenu">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainMenu"/>
+        </activity>
         <activity android:name=".User" />
-        <activity android:name=".MyList" />
+
+        <activity android:name=".MyList"
+            android:label="@string/MyList"
+            android:parentActivityName=".MainMenu">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainMenu"/>
+        </activity>
         <activity android:name=".Send" />
-        <activity android:name=".Messages" />
-        <activity android:name=".Timer" />
-        <activity android:name=".Friends" />
+        <activity android:name=".Messages"
+            android:label="@string/Messages"
+            android:parentActivityName=".MainMenu">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainMenu"/>
+        </activity>
+        <activity android:name=".Timer"
+            android:label="@string/Timer"
+            android:parentActivityName=".MainMenu">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainMenu"/>
+        </activity>
+        <activity android:name=".Friends"
+            android:label="@string/Friends"
+            android:parentActivityName=".MainMenu">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainMenu"/>
+        </activity>
         <activity android:name=".Links" />
         <activity android:name=".Episode" />
         <activity android:name=".Season2" />
         <activity android:name=".Season" />
         <activity android:name=".TvShow" />
-        <activity android:name=".Discover" />
+        <activity android:name=".Discover"
+            android:label="@string/Discover"
+            android:parentActivityName=".MainMenu">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainMenu"/>
+        </activity>
         <activity android:name=".MainMenu" />
         <activity
             android:name=".ui.login.LoginActivity"
@@ -31,6 +69,14 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".About"
+            android:label="@string/about"
+            android:parentActivityName=".MainMenu" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainMenu" />
         </activity>
     </application>
 
