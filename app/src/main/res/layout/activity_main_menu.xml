@@ -16,7 +16,7 @@
         android:layout_marginEnd="10dp"
         android:layout_marginRight="10dp"
         android:gravity="center"
-        android:text="oppi"
+        android:text="@string/oppi"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -29,7 +29,7 @@
         android:layout_height="108dp"
         android:layout_marginTop="50dp"
         android:background="@drawable/button_discover"
-        android:text="Discover"
+        android:text="@string/Discover"
         android:shape="oval"
         app:layout_constraintStart_toStartOf="@+id/username"
         app:layout_constraintTop_toBottomOf="@+id/username" />
@@ -40,7 +40,7 @@
         android:layout_height="108dp"
         android:layout_marginTop="50dp"
         android:background="@drawable/shape_drawable"
-        android:text="Timer"
+        android:text="@string/Timer"
         app:layout_constraintStart_toStartOf="@+id/circle_button2"
         app:layout_constraintTop_toBottomOf="@+id/circle_button6" />
 
@@ -50,7 +50,7 @@
         android:layout_height="108dp"
         android:layout_marginTop="50dp"
         android:background="@drawable/shape_drawable"
-        android:text="Messages "
+        android:text="@string/Messages "
         app:layout_constraintStart_toStartOf="@+id/circle_button2"
         app:layout_constraintTop_toBottomOf="@+id/circle_button2" />
 
@@ -60,7 +60,7 @@
         android:layout_height="108dp"
         android:layout_marginTop="50dp"
         android:background="@drawable/shape_drawable"
-        android:text="My List "
+        android:text="@string/My List "
         app:layout_constraintEnd_toEndOf="@+id/username"
         app:layout_constraintTop_toBottomOf="@+id/username" />
 
@@ -70,7 +70,7 @@
         android:layout_height="108dp"
         android:layout_marginTop="50dp"
         android:background="@drawable/shape_drawable"
-        android:text="Configuration"
+        android:text="@string/Configuration"
         app:layout_constraintEnd_toEndOf="@+id/username"
         app:layout_constraintTop_toBottomOf="@+id/circle_button7" />
 
@@ -80,7 +80,7 @@
         android:layout_height="108dp"
         android:layout_marginTop="50dp"
         android:background="@drawable/shape_drawable"
-        android:text="Friends "
+        android:text="@string/Friends "
         app:layout_constraintEnd_toEndOf="@+id/username"
         app:layout_constraintTop_toBottomOf="@+id/circle_button" />
 

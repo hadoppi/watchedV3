@@ -21,7 +21,7 @@
             android:ems="10"
             android:gravity="center"
             android:inputType="textPersonName"
-            android:text="Friends"
+            android:text="@string/Friends"
             app:layout_constraintTop_toTopOf="parent"
             tools:layout_editor_absoluteX="71dp" />
 

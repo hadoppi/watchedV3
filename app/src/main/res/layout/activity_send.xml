@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Send"
+        android:text="@string/Send"
         tools:layout_editor_absoluteX="98dp"
         tools:layout_editor_absoluteY="33dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

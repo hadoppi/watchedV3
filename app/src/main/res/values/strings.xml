@@ -21,6 +21,9 @@
     <string name="watchWife">séries que je regarde avec ma femme</string>
     <string name="watchFamily">Séries que je ragrde en famille</string>
     <string name="TvShows">Tv-Shows</string>
+    <string name="Episode">episode 2</string>
+    <string name="Friends">Amis</string>
+    <string name="links">liens de l\'épisode</string>
 
     <string-array name="shows_name">
         <item>  24 </item>
