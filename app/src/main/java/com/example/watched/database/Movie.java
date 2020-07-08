@@ -1,20 +1,24 @@
 package com.example.watched.database;
 
+import android.content.Context;
+
 import androidx.annotation.NonNull;
+import androidx.lifecycle.LiveData;
 import androidx.room.ColumnInfo;
 import androidx.room.Entity;
 import androidx.room.PrimaryKey;
 
 import java.util.ArrayList;
+import java.util.List;
 
 @Entity
 public class Movie {
 
-    public Movie(String titleType, String primaryTitle, String originalTitle, boolean isAdult, int startYear, int endYear, int runtimeMinutes, String genres) {
+
+
+    public Movie(String title, boolean isAdult, int startYear, int endYear, int runtimeMinutes, String genres) {
       
-        this.titleType = titleType;
-        this.primaryTitle = primaryTitle;
-        this.originalTitle = originalTitle;
+        this.title = title;
         this.isAdult = isAdult;
         this.startYear = startYear;
         this.endYear = endYear;
@@ -25,15 +29,8 @@ public class Movie {
     //    alphanumeric unique identifier of the title
     @PrimaryKey @NonNull
    public String tconst;
-    //    the type/format of the title (e.g. movie, short, tvseries, tvepisode, video, etc)
     @ColumnInfo(name="Titre")
-    public  String titleType;
-    //    the more popular title / the title used by the filmmakers on promotional materials at the point of release
-    @ColumnInfo(name="PseudoTitre")
-    public  String primaryTitle;
-    //    original title, in the original language
-    @ColumnInfo(name="Titre original")
-    public   String originalTitle;
+    public  String title;
     //    0: non-adult  1: adult
     @ColumnInfo(name="Film pour adultes ")
     public  boolean isAdult;
@@ -50,6 +47,6 @@ public class Movie {
     @ColumnInfo(name="Style(s)")
     public  String genres;
 
-    public Movie(String titleType, String primaryTitle, String originalTitle, boolean isAdult, int startYear, int endYear, int runtimeMinutes, ArrayList<String> genres) {
-    }
+
+
 }

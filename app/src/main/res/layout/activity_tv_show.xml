@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".TvShow">
+    tools:context=".pages.TvShow">
 
     <EditText
         android:id="@+id/editText10"
@@ -13,6 +13,6 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:text="@string/TvShow"
-        tools:layout_editor_absoluteX="93dp"
-        tools:layout_editor_absoluteY="58dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

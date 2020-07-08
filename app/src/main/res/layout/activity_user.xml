@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".User">
+    tools:context=".pages.User">
 
     <EditText
         android:id="@+id/editText11"
@@ -13,6 +13,6 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:text="@string/Profil"
-        tools:layout_editor_absoluteX="94dp"
-        tools:layout_editor_absoluteY="54dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

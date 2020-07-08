@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainMenu">
+    tools:context=".pages.MainMenu">
 
     <TextView
         android:id="@+id/username"
@@ -39,7 +39,7 @@
         android:layout_width="112dp"
         android:layout_height="108dp"
         android:layout_marginTop="50dp"
-        android:background="@drawable/shape_drawable"
+        android:background="@drawable/test"
         android:text="@string/Timer"
         app:layout_constraintStart_toStartOf="@+id/circle_button2"
         app:layout_constraintTop_toBottomOf="@+id/circle_button6" />
